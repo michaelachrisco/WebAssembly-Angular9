@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <app-colorcube></app-colorcube>
+  <div>
+    <button (click)="multiply(10.5, 21.2)">
+      Call multiply(10.5, 21.2)
+    </button>
+    <div *ngIf="multiplyResult">
+      multiply result is {{ multiplyResult }}
+    </div>
+
+
+  </div>
+
+</div>
